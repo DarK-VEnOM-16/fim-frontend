@@ -1,0 +1,63 @@
+.HomeBulleton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left img {
+    height: 250px;
+    margin: -50px;
+}
+
+.left .first {
+    margin-top: -20px;
+}
+
+.right {
+    position: relative;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1000px) {
+    .HomeBulleton {
+        flex-direction: column;
+    }
+
+
+    .left img {
+        height: 100px;
+        margin: -10px;
+    }
+
+    .left .first {
+        margin-top: 30px;
+    }
+
+    .right {
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .right img {
+        width: 100%;
+    }
+
+    .content {
+        font-size: 12px;
+        top: 2rem;
+        left: 4rem;
+    }
+
+}
+
+body {
+    overflow-x: hidden;
+}
